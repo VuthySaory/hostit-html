@@ -4,7 +4,7 @@ pipeline {
     environment {
         // MAIN Image Manager
         GIT_REPO_URL = "https://github.com/VuthySaory/hostit-html.git"
-        DOCKER_HUB_REPOSITORY = "VuthySaory"
+        DOCKER_HUB_REPOSITORY = "vuthysaory"
         DOCKER_HUB_IMAGE = "hostit_html_image"
         DOCKER_CREDENTIALS = "docker-hub-credentials"
         CONTAINER_NAME = "hostit_html_container"
